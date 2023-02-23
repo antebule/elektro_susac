@@ -6,22 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Elektro Susac</title>
 </head>
 
 <body>
-    <header>
-        <div class="flex">
-            <h2>ELEKTRO SUSAC</h2>
-            <!-- <div id="tabs" class="flex">
-                <p class="tab">Home</p>
-                <p class="tab">Elements Demo</p>
-                <p class="tab">Ready Pages</p>
-                <p class="tab">Missing Something</p>
-                <p class="tab">Support</p>
-            </div> -->
+    <header id="nav">
+        <div id="hamburger_menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+            <ul class="menu__box">
+                <li><a class="menu__item" href="#">Home</a></li>
+                <li><a class="menu__item" href="#">About</a></li>
+                <li><a class="menu__item" href="#">Team</a></li>
+                <li><a class="menu__item" href="#">Contact</a></li>
+                <li><a class="menu__item" href="#">Twitter</a></li>
+            </ul>
+        </div>
+        <div id="logo">
+            <p>ES</p>
         </div>
     </header>
+
     <div id="hero">
         <img id="hero_image" src="images/hero.jpg" alt="electrician">
         <img id="waves" src="images/waves.svg" alt="">
@@ -79,9 +88,40 @@
         </div>
     </section>
 
-    <!-- <section id="section_four">
-        TODO: gallery
-    </section> -->
+    <section id="section_four">
+        <div class="section_four_card">
+            <img src="https://www.elektro-heinemann.de/fileadmin/bilder/seiten/startseite/Teaser/Elektro-Heinemann_Installation.png"
+                alt="elektoinstalacije">
+            <div class="section_four__overlay" id="electroinstallations">
+                <h3>Elektroinstalacije</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+        <div class="section_four_card">
+            <img src="https://www.elektro-heinemann.de/fileadmin/bilder/seiten/startseite/Teaser/teaser-industrieelektrik-heinemann-elektrotechnik-elektromaterial-mannheim.jpg"
+                alt="industrijska elektronika">
+            <div class="section_four__overlay" id="industrial_electronics">
+                <h3>Industrijska elektronika</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+        <div class="section_four_card">
+            <img src="https://www.elektro-heinemann.de/fileadmin/bilder/seiten/startseite/Teaser/teaser-elektroinstallation-heinemann-elektrotechnik-elektromaterial-mannheim.jpg"
+                alt="mrežna tehnologija">
+            <div class="section_four__overlay" id="network_techology">
+                <h3>Mrežna tehnologija</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+        <div class="section_four_card">
+            <img src="https://www.elektro-heinemann.de/fileadmin/bilder/seiten/startseite/Teaser/teaser-kundendienst-heinemann-elektrotechnik-elektromaterial-mannheim.jpg"
+                alt="služba za korisnike">
+            <div class="section_four__overlay" id="customer_service">
+                <h3>Služba za korisnike</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </section>
 
     <section id="section_five">
         <h1 class="section_title">Repair Services Prices</h1>
@@ -154,6 +194,49 @@
         </div>
         <div id="call_us">
             <h3>Call Us 24/7 +387 (63)123456</h3>
+        </div>
+    </section>
+
+    <section id="section_seven">
+        <div id="about_us">
+            <h4>About us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas saepe debitis dicta!</p>
+        </div>
+        <div id="contact_us">
+            <h4>Contact us</h4>
+            <span>Your official source for 24/7</span>
+            <br>
+            <span>Email: company_name@mail.com</span>
+        </div>
+        <div id="location">
+            <h4>Location</h4>
+            <span>Address: Flat no B-5 Plot 6</span>
+            <br>
+            <span>Block SW(H) California.</span>
+        </div>
+        <div id="social_media_links">
+            <a href="https://www.facebook.com" class="link" id="facebook">
+                <div class="link_icon">
+                    <span class="fa fa-facebook"></span>
+                </div>
+                <div class="link_text">Facebook</div>
+            </a>
+            <a href="https://www.instagram.com" class="link" id="instagram">
+                <div class="link_icon">
+                    <span class="fa fa-instagram"></span>
+                </div>
+                <div class="link_text">
+                    <span>Intagram</span>
+                </div>
+            </a>
+            <a href="https://www.linkedin.com" class="link" id="linkedin">
+                <div class="link_icon">
+                    <span class="fa fa-linkedin"></span>
+                </div>
+                <div class="link_text">
+                    <span>Linkedin</span>
+                </div>
+            </a>
         </div>
     </section>
 </body>
